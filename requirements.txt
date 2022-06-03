@@ -1,1 +1,13 @@
-numpy==1.14.5
+# Archivo de requerimientos, docs en: https://pip.pypa.io/en/stable/reference/requirements-file-format/
+# TODO: explicar porque no indique las versiones
+
+tweepy   # API twitter, docs en: https://docs.tweepy.org/en/stable/
+requests # Descarga archivos, docs en: https://requests.readthedocs.io/en/latest/
+tqdm     # Indica progreso de cosas lentas, docs en: https://github.com/tqdm/tqdm#documentation
+pandas   # Herramienta para manipular datasets en memoria, docs en: https://pandas.pydata.org/docs/user_guide
+
+# Debe elegir entre fastText y focalText, porque a inkrement se le olvidó cambiar el nombre del programa en setup.py
+## fastText original de Facebook
+fastText @ https://github.com/facebookresearch/fastText/archive/refs/heads/main.zip
+## fastText con focal loss (focalText)
+# fastText @ https://github.com/inkrement/focalText/archive/refs/heads/master.zip
